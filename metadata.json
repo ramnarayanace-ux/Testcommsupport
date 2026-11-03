@@ -1,0 +1,6 @@
+{
+  "name": "TestComm Pro - On-Site Testing & Commissioning Support",
+  "description": "On-demand expert consulting and structured training for electrical, mechanical, and industrial commissioning engineers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
