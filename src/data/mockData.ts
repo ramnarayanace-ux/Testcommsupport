@@ -42,8 +42,8 @@ export interface LiveConsultation {
 export const UPCOMING_CONSULTATIONS: LiveConsultation[] = [
   {
     id: 'c-1',
-    expertName: 'Rajesh Verma',
-    initials: 'RV',
+    expertName: 'Ram Narayan Gupta',
+    initials: 'RG',
     specialty: 'Protection Relay Tripping (IEC 61850)',
     timeLabel: 'Live now',
     statusType: 'live',
@@ -51,8 +51,8 @@ export const UPCOMING_CONSULTATIONS: LiveConsultation[] = [
   },
   {
     id: 'c-2',
-    expertName: 'Marcus Vance',
-    initials: 'MV',
+    expertName: 'Md Faisal',
+    initials: 'MF',
     specialty: 'GIS Substation SF6 Gas Interlock',
     timeLabel: 'Today 3:00 PM',
     statusType: 'today',
@@ -80,9 +80,9 @@ export const TRUSTED_COMPANIES = [
 export const EXPERTS: Expert[] = [
   {
     id: 'exp-1',
-    name: 'Rajesh Verma, PE',
-    initials: 'RV',
-    specialty: 'Protection & Substation Automation',
+    name: 'Ram Narayan Gupta, SLPL',
+    initials: 'RG',
+    specialty: 'Testing Manager',
     category: 'relays',
     experienceYears: 16,
     tags: ['Siemens SIPROTEC', 'IEC 61850 GOOSE', 'OMICRON CMC'],
@@ -92,12 +92,12 @@ export const EXPERTS: Expert[] = [
     reviewsCount: 142,
     avatarGradient: 'from-[#FF6B35] to-[#E85D04]',
     isOnline: true,
-    activeSite: '400kV GIS Substation',
+    activeSite: '415V, 11KV, 33KV, 66KV, 132KV, 220KV, 400KV, 765KV',
   },
   {
     id: 'exp-2',
-    name: 'Marcus Vance',
-    initials: 'MV',
+    name: 'Md Faisal, SLPL',
+    initials: 'MF',
     specialty: 'High-Voltage GIS & Breaker Interlocks',
     category: 'gis',
     experienceYears: 14,

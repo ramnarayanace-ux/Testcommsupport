@@ -119,7 +119,7 @@ export default function Experts({ onOpenBooking, currency }: ExpertsProps) {
                   </svg>
                   <span>{expert.experienceYears} yrs exp</span>
                   <span className="text-[#E6EAF2]">·</span>
-                  <span className="truncate">{expert.activeSite}</span>
+                  <span className="truncate" title={expert.activeSite}>{expert.activeSite}</span>
                 </div>
 
                 {/* Tag row: 2-3 small pill tags with --bg-soft bg + --line border */}
